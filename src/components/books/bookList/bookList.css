@@ -1,0 +1,28 @@
+.list {
+	display: grid;
+	margin: 20px 0 0 0;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 1fr;
+	grid-gap: 1em;	
+}
+
+.noMatch {
+	margin-top: 250px;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+
+@media (max-width: 1200px){
+    .list {
+      grid-template-columns: repeat(2, 1fr) !important;
+      grid-template-rows: auto 1fr auto !important;              
+    }
+  }
+
+  @media (max-width: 800px){
+    .list {
+      grid-template-columns: repeat(1, 1fr) !important;
+      grid-template-rows: auto 1fr auto !important;              
+    }
+  }

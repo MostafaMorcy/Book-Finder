@@ -1,0 +1,15 @@
+.input-for-book {
+  max-width: 100vh;  
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.btn-search {    
+  border-radius: 0px !important;  
+}
+
+.input-group-text {
+	background-color: #304268 !important;
+	color: white !important;
+}
+
